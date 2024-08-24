@@ -1,0 +1,14 @@
+<head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.2.0/marked.min.js" integrity="sha512-BLTLvBrdIq0KLzJH2C9GpxL6KmCqX5cofqkYxUZPp8J2beb7ABAXPpL7aIbtSdtqLWLIgAyFFgePj1p/sq7lRw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  
+</head>
+
+<textarea id="editor"Editor is here></textarea>
+
+<hr>
+
+<div id="preview">Previewer is here</div>
+
+<div dangerouslySetInnerHTML={{__html: marked(this.state.markdown)}}></div>
